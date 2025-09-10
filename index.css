@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(235, 149, 241);
+    color: black;
+    line-height: 1.6;
+}
+
+header {
+    background: none;
+    padding: 15px;
+}
+
+.haut {
+    width: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 40px 5%;
+
+}
+
+.imag {
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.salu {
+    color: blueviolet;
+}
+
+.ha {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0.5em;
+}
+
+.hau {
+    p {
+        margin-top: 30px;
+    }
+
+
+}
+
+
+
+.logo {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+span {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.bout {
+    background-color: black;
+    display: inline-block;
+    color: white;
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+.bou {
+    margin-top: 2em;
+    display: flex;
+    gap: 30px;
+
+    .bout {
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 40px;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .bouto {
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 40px;
+        align-items: center;
+        color: black;
+        background-color: white;
+    }
+}
+
+.propos {
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.apro {
+    p {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+
+.pro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    div {
+        margin-bottom: 4em;
+        font-weight: bold;
+        margin-inline: 150px;
+
+        strong {
+            font-size: 30px;
+            color: darksalmon;
+        }
+    }
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.serv {
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.ser {
+    display: flex;
+}
+
+.servi {
+    justify-items: left;
+    text-align: left;
+    margin-inline: 50px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+
+    h3 {
+        font-weight: bold;
+    }
+
+    img {
+        width: 50px;
+    }
+}
+
+.port {
+    justify-content: center;
+    text-align: center;
+}
+
+.prof {
+    display: flex;
+    justify-content: center;
+}
+
+.proft {
+    display: flex;
+    justify-content: center;
+}
+
+.porto {
+    justify-items: center;
+    margin: 2em;
+    margin-top: 100px;
+    flex-direction: row;
+
+    img {
+        width: 100px;
+    }
+
+}
+
+.competence {
+    background-color: white;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+.comp {
+    text-align: left;
+    padding-bottom: 0.5px;
+
+    .bar {
+
+        background-color: black;
+        padding: 1px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+}
+
+.temoignage {
+    justify-content: center;
+    text-align: center;
+}
+
+.blog {
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.inf {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+
+    ul {
+        margin-top: 70px;
+        list-style: none;
+
+        li {
+            padding: 10px;
+
+            input {
+                padding-right: 300px;
+                padding-bottom: 20px;
+            }
+
+            textarea {
+                padding-right: 300px;
+                padding-bottom: 50px;
+            }
+        }
+
+        button {
+            background-color: black;
+            color: white;
+
+        }
+    }
+
+}
+
+.in {
+    p {
+        padding: 10px;
+        padding-right: 500px;
+    }
+
+    img {
+        width: 20px;
+    }
+}
+    .basse {
+        background-color: black;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+
+    }
+
+    .bas {
+        display: flex;
+        justify-content: center;
+        gap: 10em;
+        list-style: none;
+        padding-bottom: 20px;
+    }
+
+    .ts {
+        font-size: 20px;
+    }
+
+    .bl {
+        p {
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+
+        img {
+            width: 300px;
+        }
+    }
+
+    .foot {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        img {
+            width: 20px;
+        }
+    }
